@@ -1,0 +1,108 @@
+/* khuongquang.css */
+
+/* Tổng quát */
+.carousel-inner .carousel-item img {
+  height: 750px; /* Thay đổi chiều cao này theo nhu cầu */
+  object-fit: cover; /* Giữ hình ảnh không bị méo */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #070800;
+  background-color: rgb(4, 1, 16);
+}
+header.hero-section {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+header .nav-link {
+  font-weight: bold;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+header .nav-link:hover {
+  color: #2ecc71;
+}
+
+section {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+h2 {
+  color: #080101;
+  font-weight: 700;
+}
+
+/* Giới thiệu */
+#about {
+  background-color: #11d34c;
+  color: #043a3f;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(188, 13, 13, 0.1);
+}
+
+#about h2 {
+  color: #000203;
+}
+
+#about p,
+#about ul {
+  color: #555555;
+}
+
+/* Kỹ năng */
+#skills {
+  background-color: #004989;
+}
+
+#skills .card {
+  border: none;
+  background-color: white;
+  color: #333333;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#skills .card h4 {
+  color: #3498db;
+}
+
+#skills .card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Liên hệ */
+#contact {
+  background-color: #13c3e2;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact i {
+  color: #3498db;
+}
+
+#contact a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #2ecc71;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
